@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+.content{
+    max-width: 1100px;
+    margin: auto;
+   
+}
+
+.text-primary{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    background: #333;
+    color:#fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border: 3px solid #3693ff;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar h2 a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color .3s;
+}
+
+#navbar li a:hover{
+    background-color: lightcoral;
+}
+
+#navbar li a:active{
+    top:3px;
+}
+
+#home-markup{
+    background: url(/images/abstract1.jpg) no-repeat center center/cover;
+    height: 90vh;
+}
+
+.container{
+    color: white;
+}
+
+.markup-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    right: 0;
+    bottom: 0;
+    left:0;
+    background: rgba(0,0,0,.5);
+}
+
+.markup-content h1{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.markup-content p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+img.xyz{
+    float: left;
+    width: 5vw;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    margin-right: .5em;
+    }
+img.abc{
+    float: left;
+    width: 5vw;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+a:hover .xyz, a:hover .abc{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 6px rgba(241, 239, 239, 0.3);
+}
+
+a:hover .xyz, a:hover .abc{
+    transition: transform 0.2s ease-in;
+}
+
+a:active .abc, a:active .xyz{
+    transform: scale(1.2);
+}
+
+a.active .abc, a:active .xyz{
+    transition: transform 0.2s ease-in;
+}
+
+h1.H{
+    font-size: 4rem;
+}
+
+p.He{
+    font-size: 2rem;
+}

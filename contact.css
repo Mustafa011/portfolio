@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    text-align: center;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    background: #333;
+    color:#fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border: 3px solid #3693ff;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar h2 a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color .3s;
+}
+
+#navbar li a:hover{
+    background-color: lightcoral;
+}
+
+#navbar li a:active{
+    top:3px;
+}
+
+#contact-markup{
+    background: url(/images/abstract1.jpg) no-repeat center center/cover;
+    height: 92vh;
+}
+
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left:0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.markup-content{
+  
+    background: rgba(0,0,0,.5);
+    height: 91vh;
+}
+
+.markup-content h1{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.markup-content h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+
+}
+img.xyz{
+    width: 3vw;
+    float: left;
+    margin-right: 0.5rem;
+
+}
+
+img.abc{
+    width: 3vw;
+    float: left;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.blah{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.pqr{
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+h1.six{
+    margin-bottom: 20px;
+}
+
+h1.H{
+    margin-top: 40px;
+}
+
+img.he{
+    width: 10vw;
+}
+
+h2.third{
+    margin-top: 10px;
+}
+
+img.four{
+    width: 6vw;
+    margin: 1rem;
+
+}
+
+img.five{
+    width:5.6vw;
+    margin: 1rem;
+}
+
+a:hover .xyz, a:hover .abc, a:hover .four, a:hover .five{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 6px rgba(241, 239, 239, 0.3);
+}
+
+a:active .xyz, a:active .abc, a:active .four, a:active .five{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 6px rgba(241, 239, 239, 0.3);
+}
+
+a:hover .xyz, a:hover .abc, a:hover .four, a:hover .five{
+    transition: transform 0.1s ease-in;
+}
+
+a:active .xyz, a:active .abc, a:active .four, a:active .five{
+    transition: transform 0.1s ease-in;
+}

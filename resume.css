@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    text-align: center;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    background: #333;
+    color:#fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border: 3px solid #3693ff;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar h2 a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color .3s;
+}
+
+#navbar li a:hover{
+    background-color: lightcoral;
+}
+
+#navbar li a:active{
+    top:3px;
+}
+
+img{
+    width: 34vw;
+    height: 84vh;
+    position: sticky;
+    top: 5%;
+    left: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    position: sticky;
+    bottom: 1%;
+    left: 35%;
+    width: 5rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 1.5px lightgrey;
+    margin:0.5rem;
+
+}
+
+p.xyz{
+    position: sticky;
+    bottom: 1%;
+    left: 28%;
+    color: white;
+    font-size: 1.4rem;
+    margin: .5rem;
+
+}
+
+#resume-markup{
+    background: url(/images/abstract1.jpg) no-repeat center center/cover;
+    height: 91vh;
+}
+
+.markup-content{
+    background: rgba(0,0,0,.5);
+}
