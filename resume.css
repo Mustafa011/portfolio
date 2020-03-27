@@ -52,7 +52,7 @@ body{
 
 img{
     width: 34vw;
-    height: 84vh;
+    height: 80vh;
     position: sticky;
     top: 5%;
     left: 20%;
@@ -63,7 +63,7 @@ a{
 }
 button{
     position: sticky;
-    bottom: 1%;
+    bottom: 1px;
     left: 35%;
     width: 5rem;
     height: 3rem;
@@ -76,7 +76,7 @@ button{
 
 p.xyz{
     position: sticky;
-    bottom: 1%;
+    bottom: 1px;
     left: 28%;
     color: white;
     font-size: 0.9rem;
@@ -91,4 +91,5 @@ p.xyz{
 
 .markup-content{
     background: rgba(0,0,0,.5);
+    height: 91vh;
 }
