@@ -155,7 +155,7 @@ p.He{
         z-index: 1;
         border: 3px solid #3693ff;
         height: 16vh;
-        width: 95vw;
+        width: 120vw;
     }
     .text-primary{
         color: #fff;
@@ -191,34 +191,40 @@ p.He{
         align-items: left;
         justify-content: center;
         position: absolute;
-        top: 40px;
+        top: 30px;
         right: 0;
         bottom: 0;
-        left:-25px;
+        left:-50px;
         background: rgba(0,0,0,.5);
-        height: 750px;
-        width: 112vw;
+        height: 770px;
+        width: 135vw;
     }
     
     h1.H{
         font-size: 1.8rem;
+        position: relative;
+        left: -20px;
     }
     
     p.He{
         font-size: 1.2rem;
+        position: relative;
+        left: -20px;
     }
 
     img.xyz{
         width: 15vw;
         position: relative;
-        left: -7px;
+        top: -10px;
+        left: -25px;
     }
 
     img.abc{
         width: 15vw;
         margin-top: 0.5rem;
         position: relative;
-        left: -5px;
+        top: -10px;
+        left: -25px;
     }
 
 
