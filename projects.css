@@ -2,7 +2,128 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+body{
+    overflow: hidden;
+}
+
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    border: 2px solid #3693ff;
+}
+
+.text-primary{
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#navbar ul{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    position: sticky;
+    left: 20px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 5px 16px 0 16px;
+}
+
+#navbar ul li a{
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#navbar li a:active{
+    background-color: lightcoral;
+}
+
+#navbar li a:active{
+    top:3px;
+}
+
+#projects-markup{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url(images/abstract2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.markup-content{
+    background-color: rgba(0,0,0,.4);
+    height: 100%;
+}
+
+#container{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+}
+
+#ldr{
+    margin: 1.5rem 0;
+}
+#counter{
+    margin: 2rem 0;
+}
+
+#nas{
+    margin: 2rem 0;
+}
+
+.xyz{
+    margin-bottom: .5rem;
+}
+
+a.link{
+    color:lightcoral;
+    text-decoration: none;
+}
+
+.link:active{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1000px)
+{
 
 body{
     overflow: hidden;
@@ -49,6 +170,13 @@ body{
     top:3px;
 }
 
+.text-primary{
+    color: #fff;
+    font-size: 1.7rem;
+    position: relative;
+    top: -13px;
+}
+
 #projects-markup{
     background: url(images/abstract1.jpg) no-repeat center center/cover;
     height: 91vh;
@@ -61,32 +189,24 @@ body{
 }
 #container{
     color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 5%;
-    left: 15%;
-    right: 0;
-    bottom: 0;
-    width: 70%;
-    height: 70vh;
+    align-items: left;
+    position: absolute;
+    top: 15%;
+  
 }
 #ldr , #counter , #nas{
-    margin: 2.5em;
+    margin: 3rem 0;
 }
 h2.xyz {
     font-size: 2.5em;
-    margin: 0.5em;
+    margin: 0.3em 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 #ldr a, #counter a, #nas a{
     text-decoration: none;
-    color: white;
+    color: lightcoral;
 
 }
 
@@ -101,5 +221,6 @@ p.abc{
     background-color: gray;
 }
 
+}
 
 
