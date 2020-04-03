@@ -2,7 +2,161 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+body{
+    overflow: hidden;
+}
+
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    border: 2px solid #3693ff;
+}
+
+.text-primary{
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#navbar ul{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    position: sticky;
+    left: 20px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 5px 16px 0 16px;
+}
+
+#navbar ul li a{
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#navbar li a:active{
+    background-color: lightcoral;
+}
+
+#navbar li a:active{
+    top:3px;
+}
+
+#contact-markup{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url(images/abstract2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.markup-content{
+    background-color: rgba(0,0,0,.4);
+    height: 100%;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+h1.six{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.8rem;
+}
+
+img.he{
+    width: 30vw;
+}
+
+img.xyz{
+    width: 14vw;
+    margin: 1rem 0;
+    position: relative;
+    left: -10px;
+}
+img.abc{
+    width: 14vw;
+    position: relative;
+    left: -9px;
+
+}
+img.four{
+    width: 10vw;
+    display: inline;
+    float: left;
+    position: relative;
+    left: 35%;
+    width: 14vw;
+}
+img.five{
+    width: 10vw;
+    display: inline;
+    float: left;
+    position: relative;
+    left: 40%;
+    width: 13vw;
+}
+
+
+h2.third{
+    margin: 0.5rem 0;
+}
+
+.blah{
+    color: white;
+    position: absolute;
+    top: 57%;
+    font-size: 1.2rem;
+}
+
+.pqr{
+    color: white;
+    position: absolute;
+    top: 74%;
+    font-size: 1.2rem;
+}
+
+h1.H{
+    color: white;
+    margin:5px 0;
+}
+
+
+a:active .xyz, a:active .abc, a:active .four, a:active .five{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 6px rgba(241, 239, 239, 0.3);
+}
+
+a:active .xyz, a:active .abc, a:active .four, a:active .five{
+    transition: transform 0.1s ease-in;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1000px)
+{
 
 body{
     overflow: hidden;
@@ -50,6 +204,13 @@ body{
     top:3px;
 }
 
+.text-primary{
+    color: #fff;
+    font-size: 1.7rem;
+    position: relative;
+    top: -13px;
+}
+
 #contact-markup{
     background: url(images/abstract1.jpg) no-repeat center center/cover;
     height: 92vh;
@@ -63,7 +224,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 10%;
+    top: 4%;
     right: 0;
     bottom: 0;
     left:0;
@@ -89,17 +250,17 @@ body{
 
 }
 img.xyz{
-    width: 3vw;
+    width: 4vw;
     float: left;
     margin-right: 0.5rem;
 
 }
 
 img.abc{
-    width: 3vw;
+    width: 4vw;
     float: left;
     margin-top: 1rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
 }
 
 .container a{
@@ -111,14 +272,16 @@ img.abc{
 
 .blah{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 5px;
+    font-size: 1.4rem;
 }
 
 .pqr{
     position: relative;
     top: 20px;
-    right: 10px;
+    left: -12px;
+    font-size: 1.4rem;
 }
 
 h1.six{
@@ -126,7 +289,7 @@ h1.six{
 }
 
 h1.H{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 img.he{
@@ -135,17 +298,22 @@ img.he{
 
 h2.third{
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 img.four{
-    width: 6vw;
-    margin: 1rem;
+    width: 4vw;
+    margin: 0.8rem 0;
+    position: relative;
+    left: -14px;
 
 }
 
 img.five{
-    width:5.6vw;
-    margin: 1rem;
+    width:3.6vw;
+    margin: 0.8rem 0;
+    position: relative;
+    left: 10px;
 }
 
 a:hover .xyz, a:hover .abc, a:hover .four, a:hover .five{
@@ -164,4 +332,6 @@ a:hover .xyz, a:hover .abc, a:hover .four, a:hover .five{
 
 a:active .xyz, a:active .abc, a:active .four, a:active .five{
     transition: transform 0.1s ease-in;
+}
+
 }
